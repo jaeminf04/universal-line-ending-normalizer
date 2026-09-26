@@ -1,0 +1,14 @@
+[project]
+name = "universal-line-ending-normalizer"
+version = "0.1.0"
+description = "Detects and converts between CR, LF, CRLF, and Unicode line separators on text streams or strings."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
